@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Liquid Gradient for Emblem -->
+    <linearGradient id="emblemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="40%" stop-color="#06B6D4" />
+      <stop offset="80%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Glass Glow -->
+    <linearGradient id="plateBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#EDF2F7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Base for Emblem -->
+  <rect x="2" y="4" width="48" height="48" rx="14" fill="url(#plateBg)" stroke="#E2E8F0" stroke-width="1.5" />
+  <circle cx="26" cy="28" r="18" stroke="#0EA5E9" stroke-width="1" stroke-opacity="0.2" fill="none" />
+
+  <!-- Liquid Monogram A -->
+  <g transform="translate(6, 6) scale(0.078)">
+    <circle cx="256" cy="98" r="22" fill="url(#emblemGrad)" />
+    <path d="M194 365 C178 365 170 350 178 335 L234 165 C242 142 252 135 256 135 C260 135 270 142 278 165 L334 335 C342 350 334 365 318 365 C304 365 294 354 290 340 L256 230 L222 340 C218 354 208 365 194 365 Z" fill="url(#emblemGrad)" />
+    <path d="M165 275 C215 258 297 258 347 275 C357 278 362 288 358 296 C354 304 343 308 333 305 C291 292 221 292 179 305 C169 308 158 304 154 296 C150 288 155 278 165 275 Z" fill="#0EA5E9" fill-opacity="0.3" stroke="#059669" stroke-width="8" />
+  </g>
+
+  <!-- Typography: ATHAR -->
+  <text x="64" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" letter-spacing="4" fill="#0F172A">ATHAR</text>
+  <text x="65" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.5" fill="#059669">WHERE GREAT MINDS MEET</text>
+</svg>
