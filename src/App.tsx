@@ -123,12 +123,6 @@ export default function App() {
       {/* ================= HERO SECTION ================= */}
       <section className="relative pt-16 pb-20 md:pt-24 md:pb-28 px-5">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Signal Badge (No 'private network') */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs sm:text-sm font-semibold mb-8 shadow-xs">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>High-Signal Discussion Platform for Algerian Builders & Minds</span>
-          </div>
-
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-slate-900 mb-6 leading-[1.12]">
             Where great minds meet <br />
@@ -139,7 +133,7 @@ export default function App() {
 
           {/* Subtitle */}
           <p className="max-w-2xl mx-auto text-slate-600 text-base sm:text-lg md:text-xl font-normal leading-relaxed mb-10">
-            A dedicated sanctuary for Algerian software engineers, architects, founders, and deep thinkers.
+            A focused sanctuary for software engineers, systems architects, builders, and deep thinkers.
             No brainrot reels, no engagement traps—pure signal, thoughtful discussions, and authentic peer exchange.
           </p>
 
@@ -418,7 +412,7 @@ export default function App() {
               },
               {
                 q: 'Is there an iOS / iPhone version planned?',
-                a: 'Yes. An iOS build configured for TestFlight is in preparation. Android was chosen for the initial alpha due to its native APK distribution flexibility in Algeria.'
+                a: 'Yes. An iOS build configured for TestFlight is in preparation. Android was chosen for the initial alpha due to its fast APK release iteration and direct distribution.'
               }
             ].map((item, idx) => (
               <div

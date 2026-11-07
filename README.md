@@ -2,7 +2,7 @@
 
 > **Where great minds meet outside social media noise.**
 
-The official web portal and release distribution hub for **Athar (أثر)** — a high-signal discussion network for Algerian builders, software engineers, and analytical minds.
+The official web portal and release distribution hub for **Athar** — a high-signal discussion platform for builders, software engineers, and analytical minds.
 
 ---
 
@@ -13,7 +13,7 @@ The official web portal and release distribution hub for **Athar (أثر)** — 
 - **Dynamic Mobile QR Code:** Scan directly from desktop monitors to install on Android instantly.
 - **VIP Early Access Helper:** One-tap copy for alpha invitation tokens (`ATHAR-2026`).
 - **3-Step Installation Guide:** Clear Android installation instructions for installing untrusted APK sources.
-- **OLED Dark Aesthetic:** Built with Tailwind CSS, pitch-black glass cards, and emerald accent hierarchy matching the native Athar app.
+- **Clean Light Aesthetic:** Built with Tailwind CSS, elevated white cards, and emerald accent hierarchy.
 
 ---
 
